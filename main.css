@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   height: 59vh;
-  padding: 0vh 0vw 1vh;
+  padding: 5vh 0vw 1vh;
 }
 #landing #profile img {
   height: 100%;
