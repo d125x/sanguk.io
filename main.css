@@ -1,12 +1,50 @@
 body {
-  margin: 0px;
-}
-.landing {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0px;
+  min-width: 300px;
 }
-#profile {
-  height: 70vh;
+#landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#landing #profile {
+  display: flex;
+  justify-content: center;
+  height: 59vh;
+  padding: 0vh 0vw 1vh;
+}
+#landing #profile img {
+  height: 100%;
+}
+/* #landing #ticker {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 14vh !important;
+} */
+/* #landing #ticker ul {
+  list-style: none;
+  height: 100%;
+} */
+/* #landing #ticker ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100% !important;
+  font-size: 5vh;
+} */
+#landing #contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding: 1vh 0vw 0vh;
+}
+#landing #contact .icon {
+  height: 4vh;
+  margin: 0.8vw;
 }
