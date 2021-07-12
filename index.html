@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
+    <title>Sang-Uk Lee</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <title>Sang-Uk Lee</title>
     <meta name="description" content="Tomorrow's also gonna be fun" />
     <meta property="og:title" content="Sang-Uk Lee" />
     <meta property="og:url" content="https://sang-uk.kr" />
@@ -16,50 +15,55 @@
     <meta name="twitter:title" content="Sang-Uk Lee" /> 
     <meta name="twitter:description" content="Tomorrow's also gonna be fun" /> 
     <meta name="twitter:image" content="https://sang-uk.kr/assets/images/profile.jpg" />
-
+    <script src="./scripts/jquery-1.7.2.min.js"></script>
+    <script src="./scripts/landing.js"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
-    <!-- <header>Logo Here</header> -->
-    <main>
-      <section>
-        <div id="landing">
-          <div id="profile">
-            <img src="./assets/images/IMG_6035_cropped.webp" alt="My profile image" />
-          </div>
 
-          <!-- <div id="ticker">
-            <ul>
-              <li>Sean Lee</li>
-              <li>이상욱</li>
-              <li>Amsang</li>
-            </ul>
-          </div> -->
-         
-          <div id="contact">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lee@sang-uk.kr" target="_blank">
-              <img class="icon" src="./assets/icons/ico-gmail.svg" alt="Gmail icon" />
-            </a>
-            <a href="https://www.linkedin.com/in/sang-uk-lee" target="_blank">
-              <img class="icon" src="./assets/icons/ico-linkedin.svg" alt="Linkedin icon" />
-            </a>
-            <a href="https://discord.com/users/136062107371175936" target="_blank">
-              <img class="icon" src="./assets/icons/ico-discord.svg" alt="Discord icon" />
-            </a>
-            <a href="https://github.com/sang-uk-lee" target="_blank">
-              <img class="icon" src="./assets/icons/ico-github.svg" alt="Github icon" />
-            </a>
-            <a href="https://twitter.com/AMS4NG" target="_blank">
-              <img class="icon" src="./assets/icons/ico-twitter.svg" alt="Twitter icon" />
-            </a>
-          </p>
-        </div>
+  <body>
+    <main id="landing">
+      <section id="profile">
+        <img src="./assets/images/profile3.webp" alt="My profile image" />
+      </section>
+
+      <section id="ticker">
+        <ul id="names">
+          <li>이상욱</li>
+          <li>Sean Lee</li>
+          <li>Amsang</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <button id="contact-btn" onclick="openNav()">
+          <img class="icon" src="./assets/icons/ico-contact.svg" alt="Contact icon" />
+        </button>
+        
+        <nav id="contact-nav">
+          <a href="https://www.notion.so/sanguklee/Sean-Lee-71453cd46440434eade5675be6281e08" target="_blank">
+            <img class="icon" src="./assets/icons/ico-notion.svg" alt="Notion icon with link" />
+          </a>
+          <a href="https://github.com/sang-uk-lee" target="_blank">
+            <img class="icon" src="./assets/icons/ico-github.svg" alt="GitHub icon with link" />
+          </a>
+          <a href="https://www.linkedin.com/in/sang-uk-lee" target="_blank">
+            <img class="icon" src="./assets/icons/ico-linkedin.svg" alt="LinkedIn icon with link" />
+          </a>
+          <a href="https://twitter.com/AMS4NG" target="_blank">
+            <img class="icon" src="./assets/icons/ico-twitter.svg" alt="Twitter icon with link" />
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=lee@sang-uk.kr" target="_blank">
+            <img class="icon" src="./assets/icons/ico-gmail.svg" alt="Gmail icon with link" />
+          </a>
+          <a href="https://discord.com/users/136062107371175936" target="_blank">
+            <img class="icon" src="./assets/icons/ico-discord.svg" alt="Discord icon with link" />
+          </a>
+        </nav>
+      </section>
+
+      <section id="sub-bordered">
+        <!-- TODO -->
       </section>
     </main>
-
-    <!-- <footer>Footer Here</footer> -->
-    <!-- <script src="./scripts/jquery-1.7.2.min.js"></script>
-    <script src="./scripts/jquery.vticker.min.js"></script>
-    <script src="./scripts/vticker-runner.js"></script> -->
   </body>
 </html>
