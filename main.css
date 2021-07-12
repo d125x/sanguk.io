@@ -23,13 +23,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 480px;
+  min-width: 320px;
 }
 
 #profile {
   display: flex;
   justify-content: center;
-  height: 360px;
+  height: 240px;
   margin: 0vh 0vw 2vh;
 }
 #profile img {
@@ -76,7 +76,6 @@ body {
   height: 32px;
   font-size: 18px;
   cursor: pointer;
-  border: 4px solid black;
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
 }
@@ -100,7 +99,7 @@ body {
 }
 #contact-nav .icon {
   height: 32px;
-  margin: 12px;
+  margin: 2vw;
 }
 
 #sub-bordered {

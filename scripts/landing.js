@@ -5,7 +5,7 @@ const tick = () => {
 }
 const openNav = () => {
     document.getElementById("contact-btn").innerHTML = 'X';
-    document.getElementById("contact-nav").style.width = "600px";
+    document.getElementById("contact-nav").style.width = "80vw";
     document.getElementById("contact-btn").style.border = "1px solid #DDD";
     document.getElementById("contact-btn").onclick = closeNav;
     document.getElementById("contact-btn").blur();
